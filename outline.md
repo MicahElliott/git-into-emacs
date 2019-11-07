@@ -33,7 +33,19 @@
 Simply fire up magit in an untracked repo and magit will prompt to
 initialize.
 
+## Set up a remote
+
+- `M`
+
+## Push to the remote
+
 ## The default view: status
+
+## Get comfortable with built-in help system
+
+- `?`
+
+## View under the hood: $
 
 ## Some handy shortcuts
 
