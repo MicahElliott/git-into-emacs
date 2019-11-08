@@ -1,11 +1,71 @@
 # Git into Emacs
 
+## Intro
+
+In this guide, I'll show you the essential parts of an Emacs-with-Git
+workflow.
+
+This is not an attempt to teach much about Git or Emacs, but rather
+how to use them together efficiently and follow best engineering
+practices.  I won't presume that you know a lot about either (yet!),
+but I also won't cover a lot of the basics -- there are great books
+already available that handle that, and many are freely available.
+
+### Git Books
+
+- _[Pro Git](https://git-scm.com/book/en/v2)_
+- _[Git in Practice](https://www.manning.com/books/git-in-practice)_
+- _[Ry's Git Tutorial](https://www.smashwords.com/books/view/498426)_
+
+### Emacs Books
+
+- _[Mastering Emacs](https://www.masteringemacs.org/)_
+- _[Learning GNU Emacs](http://shop.oreilly.com/product/9780596006488.do)_
+
 ## Git Basics
 
 - refs
 - HEAD
 - hunks
 - changesets
+- SHA revisions
+- three states: modified, staged, committed
+- working tree
+
+## Why get off the command line
+
+The _command line_ (CLI) is really a pretty good place to start
+learning git.  You'll find an inordinate number of tutorials and blogs
+covering its use, from absolute basics to the most advanced multi-team
+workflows.
+
+But typing full commands is tedious.  There are several ways to make
+it less painful, including shell support for aliases, completions,
+prompts, etc.  In fact, the majority of git users probably do all
+their git work from the command line.  Nearly all git documentation
+describes its usage as from the CLI.  But I find that using Git via
+Emacs is truly a better way.
+
+## Why leave your visual Git tools behind?
+
+When the CLI and your editor feel onerous, some turn to visual git
+tools.  They are often heavy-weight and may have other expenses
+involved.  There are hundreds of these tools built on top of Git to
+attempt to make it "friendlier".  You can visualize branches and do
+3-way diffs, search for things in your history, and much more.
+
+But Emacs is one of the only all-in-one environments for accomplishing
+low-level operations, as well as the interactive visuals.  And you can
+do it all while seamlessly changing your code and documents.  Git
+tools in Emacs take a menu-command-oriented approach, giving you the
+best of both command and visual worlds.  Instead of typing a bunch of
+full commands and their options, you work your way through
+single-letter menus with help and prompts all the way through.  You
+get all the simplicity and speed benefits of being in a text mode, yet
+the power of visuals and menus.  And you're already in your text
+editor!
+
+Yes, this book is being written in Emacs and managed by Git.
 
 ## Emacs tools for git
 
