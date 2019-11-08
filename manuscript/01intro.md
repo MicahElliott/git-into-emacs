@@ -44,6 +44,25 @@ their git work from the command line.  Nearly all git documentation
 describes its usage as from the CLI.  But I find that using Git via
 Emacs is truly a better way.
 
+Compare the 2-character Magit commands to the what they actually
+produce behind the scenes:
+
+    0 git … push -v --set-upstream github master\:refs/heads/master
+
+    1 git … push -v github master\:refs/heads/master
+
+    0 git … push -v --force-with-lease github master\:refs/heads/master
+
+    0 git … commit --amend --no-edit --
+
+    0 git … add -u .
+
+    0 git … commit --amend --no-edit --
+
+
+
+
+
 ## Why leave your visual Git tools behind?
 
 When the CLI feels onerous, some turn to visual git tools.  They are
