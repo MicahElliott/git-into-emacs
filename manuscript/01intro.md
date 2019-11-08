@@ -53,13 +53,17 @@ produce behind the scenes:
 
     0 git … push -v --force-with-lease github master\:refs/heads/master
 
+    0 git … fetch origin master
+
     0 git … commit --amend --no-edit --
 
     0 git … add -u .
 
     0 git … commit --amend --no-edit --
 
+    1 git … rebase origin/master
 
+    0 git … rebase --abort
 
 
 

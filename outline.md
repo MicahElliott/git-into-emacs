@@ -5,7 +5,7 @@
 - Emacs setup: magit, timemachine, a few others
 
 - Main interfaces:
-  - everywhere: C-g, $, ?
+  - everywhere: C-g, $, ?, 1-4 expansion/collapse
   - status, log, git running ($), history editing, shortcuts (M-n/p)
 
 - Browsing History: status view, logs
@@ -160,6 +160,8 @@ Maybe you need to add a ticket number to one or several commits
 
 ## Clone only master branch
 
+## Fixup and Autosquash
+
 ## Reset HEAD to other revs
 
 ## Use rerere to save from remerging
@@ -187,3 +189,6 @@ Go through bindings
 
 - git-bisect
 - git-clone
+
+
+## Contributing to magit kickstarter
