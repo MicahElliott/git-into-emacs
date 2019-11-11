@@ -25,6 +25,8 @@
 
 - Resolving Conflicts: ediff
 
+---
+
 ## Intro
 
 ## Git basics

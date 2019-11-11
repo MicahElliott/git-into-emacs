@@ -1,3 +1,11 @@
 # Container of chapters
 
 01intro.md
+
+emacs-setup.md
+
+git-basics.md
+
+appendix.md
+
+glossary.md
