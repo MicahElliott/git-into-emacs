@@ -2,6 +2,8 @@
 
 01intro.md
 
+whirlwind-tour.md
+
 emacs-setup.md
 
 git-basics.md

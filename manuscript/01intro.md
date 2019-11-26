@@ -65,19 +65,23 @@ hundreds of these tools built on top of Git to attempt to make it
 for things in your history, and much more.
 
 But Emacs is one of the only all-in-one environments for accomplishing
-low-level operations, as well as the interactive visuals.  And you can
-do it all while seamlessly changing your code and documents.  Git
-tools in Emacs take a menu-command-oriented approach, giving you the
-best of both command and visual worlds.  Instead of typing a bunch of
-full commands and their options, you work your way (likely
-mouselessly) through single-letter menus with help and prompts all the
-way through.  You can fetch, branch, rebase, check status, view logs,
-edit, resolve conflicts, stage, commit, and push, all with just a few
-keystrokes.  You get all the simplicity and speed benefits of being in
-a text mode, yet the power of visuals and menus.  No real need for
-command lines or GUIs or even browsers (or really even a mouse);
-you're already in the world's most powerful text editor and you never
-have to leave!
+low-level operations, as well as interactive visuals.  And you can do
+it all while seamlessly changing your code and documents.  Git tools
+in Emacs take a menu-command-oriented approach, giving you the best of
+both command and visual worlds.  Instead of typing a bunch of full
+commands and their options, you work your way (likely mouselessly)
+through single-letter menus with help and prompts all the way through.
+You can fetch, branch, rebase, check status, view logs,
+create/stage/edit commits, resolve conflicts, and push -- all with
+just a few keystrokes.  You get all the simplicity and speed benefits
+of being in a text mode, yet the power of visuals and menus.  No real
+need for command lines or GUIs or even browsers (or really even a
+mouse); you're already in the world's most powerful text editor and
+you never have to leave!
+
+In fact, Magit's interface is so novel that people are using it as an
+interface model for interacting with various other systems, like
+Kubernetes, Kafka, and more.[^1]
 
 Git is full of concepts that are a necessary part of distributed
 development.  Magit and its organization of interfaces actually makes
@@ -108,4 +112,6 @@ time on other Emacs tools that assist with version control:
 - github/gitlab/bitbucket
 
 We'll also spend a little time on the command line to ensure you
-undersstand what Magit is really up to.
+understand what Magit is really up to.
+
+[^1]: Via [transients](https://magit.vc/manual/transient/Introduction.html#Introduction)

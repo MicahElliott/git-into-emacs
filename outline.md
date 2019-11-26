@@ -139,6 +139,8 @@ Maybe you need to add a ticket number to one or several commits
 
 ## Speed up magit
 
+[Magit performance](https://magit.vc/manual/magit/Performance.html#Performance)
+
 ## See more log details
 
 - `l -s l`
@@ -191,6 +193,13 @@ Go through bindings
 
 - git-bisect
 - git-clone
+
+## Things to learn/think more about
+
+- `C-x` in menu to get all options
+- Accessing man pages `C-h ?`
+- prefix vs transient commands
+- setting pushRemote vs
 
 
 ## Contributing to magit kickstarter
